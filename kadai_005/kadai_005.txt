@@ -1,0 +1,8 @@
+echo "Hello, world!" >> hello_world.txt
+ git add .
+ git commit -m "hello_world.txtを追加"
+git push -u origin main
+git add .
+git commit -m "日本語訳を追記"
+git push -u origin main
+git log --oneline 
